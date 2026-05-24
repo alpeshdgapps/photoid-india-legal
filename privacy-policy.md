@@ -1,4 +1,3 @@
-# photoid-india-legal
 # Privacy Policy for PhotoID India
 
 **Last updated: May 24, 2026**
