@@ -161,9 +161,7 @@ If you have any questions about this Privacy Policy or our
 practices, please contact us at:
 
 **Email**: photoid.india.support@gmail.com
-
 **Developer**: Logictray Mobile Lab
-
 **App**: PhotoID India
 
 ## 11. Jurisdiction
