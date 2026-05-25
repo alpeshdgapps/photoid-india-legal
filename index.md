@@ -1,6 +1,6 @@
 # Privacy Policy for PhotoID India
 
-**Last updated: May 24, 2026**
+**Last updated: May 25, 2026**
 
 PhotoID India ("we", "our", or "the app") is developed and 
 operated by Logictray Mobile Lab ("we" or "the developer"). This Privacy 
@@ -127,6 +127,8 @@ You can:
 - Uninstall the app at any time to remove all locally stored data
 - Request a refund through Google Play within their refund policy 
   window (typically 48 hours)
+- See our detailed data deletion instructions at: 
+  https://alpeshdgapps.github.io/photoid-india-legal/data-deletion
 - Contact us at photoid.india.support@gmail.com for any privacy-related concerns
 
 ## 8. Security
@@ -159,7 +161,9 @@ If you have any questions about this Privacy Policy or our
 practices, please contact us at:
 
 **Email**: photoid.india.support@gmail.com
+
 **Developer**: Logictray Mobile Lab
+
 **App**: PhotoID India
 
 ## 11. Jurisdiction
