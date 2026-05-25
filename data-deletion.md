@@ -107,9 +107,7 @@ If you have any questions about data deletion or our data
 practices, please contact us at:
 
 **Email**: photoid.india.support@gmail.com
-
 **Developer**: Logictray Mobile Lab
-
 **App**: PhotoID India
 
 For our full privacy practices, please see our Privacy Policy at:
