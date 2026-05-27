@@ -168,4 +168,4 @@ practices, please contact us at:
 
 This Privacy Policy is governed by the laws of India. Any 
 disputes arising under this policy shall be subject to the 
-jurisdiction of the courts of Pune, Maharashtra, India.
+jurisdiction of the courts of Surat, Gujarat, India.
