@@ -1,6 +1,6 @@
 # Privacy Policy for PhotoID India
 
-**Last updated: May 29, 2026**
+**Last updated: May 30, 2026**
 
 PhotoID India ("we", "our", or "the app") is developed and
 operated by Logictray Mobile Lab ("we" or "the developer"). This
@@ -230,10 +230,9 @@ We implement reasonable security measures to protect your
 information:
 
 - All network communications use HTTPS encryption in transit
-- Locally stored credentials use Android's
-  EncryptedSharedPreferences
-- Photos are stored in app-specific storage that other apps
-  cannot access without explicit permission
+- Photos and app data are stored in Android's app-private
+  internal storage, isolated by the operating system from
+  other applications
 - We do not log or persist your photos on any servers we operate
 - Crash reports and analytics data contain no photos or personal
   identifiers
