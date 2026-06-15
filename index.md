@@ -1,6 +1,6 @@
 # Privacy Policy for PhotoID India
 
-**Last updated: May 30, 2026**
+**Last updated: Jun 15, 2026**
 
 PhotoID India ("we", "our", or "the app") is developed and
 operated by Logictray Mobile Lab ("we" or "the developer"). This
