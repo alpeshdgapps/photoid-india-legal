@@ -193,14 +193,9 @@ anywhere by this app.
 If you delete your data or uninstall the app:
 
 - **Your credit balance is removed** from your device
-- **Your Google Play purchase records are retained** by Google
-- If you reinstall the app, use Settings → Restore Purchases to
-  recover your previously purchased credits using your Google
-  Play purchase history
+- **Your Google Play purchase records are retained** by Google (per Google's policies, outside our control)
 
-Credits purchased in PhotoID India never expire. If you
-reinstall and restore purchases, your credits will be
-reactivated.
+Credits purchased in PhotoID India never expire while the app is installed. However, because your credit balance is stored only on your device, **uninstalling the app or clearing app data removes your remaining credits, and they cannot currently be recovered on a new device or after reinstalling.** Cross-device credit restoration is not available in the current version of the app.
 
 ---
 
