@@ -1,6 +1,6 @@
 # Data Deletion Request — PhotoID India
 
-**Last updated: May 29, 2026**
+**Last updated: Jun 15, 2026**
 
 This page explains how users of PhotoID India can delete their
 data, what gets deleted, what is retained, and what happens when
@@ -131,13 +131,7 @@ To delete purchase records, use Method 2 (Uninstall).
 - All cached data
 
 **Retained after uninstall (outside our control):**
-- **Google Play purchase records**: Records of your in-app
-  purchases are retained by Google Play Services per Google's
-  own policies. This is outside our control. These records are
-  used by Google Play to support purchase restoration if you
-  reinstall the app. To request deletion of Google Play purchase
-  records, contact Google Play Support directly at:
-  https://support.google.com/googleplay
+- **Google Play purchase records**: Records of your in-app purchases are retained by Google Play Services per Google's own policies. This is outside our control. Note: because credits are stored only on your device, reinstalling the app does not restore your previous credit balance — your credit balance is removed when you uninstall or clear data. To request deletion of Google Play purchase records, contact Google Play Support directly at: https://support.google.com/googleplay
 
 ---
 
