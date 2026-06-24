@@ -1,56 +1,43 @@
 # Data Deletion Request — PhotoID India
 
-**Last updated: Jun 15, 2026**
+**Last updated: Jun 24, 2026**
 
-This page explains how users of PhotoID India can delete their
-data, what gets deleted, what is retained, and what happens when
-you contact us with a deletion request.
+This page explains how users of PhotoID India can delete their data, what gets deleted, what is retained, and what happens when you contact us with a deletion request.
 
 ---
 
 ## About PhotoID India
 
-PhotoID India is a mobile application developed by Logictray
-Mobile Lab. The app helps users generate government-spec ID
-photos for Indian documents (passport, Aadhaar, PAN, Voter ID,
-Driving License) and international documents (US Visa, Schengen
-Visa).
+PhotoID India is a mobile application developed by Logictray Mobile Lab. The app helps users create document-size ID and visa photos for Indian Passport, PAN Card, Voter ID, Driving Licence, OCI Card, US Visa, Schengen Visa, and other supported formats.
 
 ---
 
-## Important: Your Data Is On Your Device
+## Important: Most App Data Is On Your Device
 
-PhotoID India stores all user data locally on your device. We do
-not operate any servers that store your photos, your identity
-information, or your personal data.
+PhotoID India stores your saved photos, generated PDFs/JPEGs, credit balance, and app settings locally on your device. We do not operate servers that permanently store your photos or identity information.
 
 This means:
 
-- We cannot delete your data remotely because we have no access
-  to it
-- Deleting your data is entirely within your control
-- The deletion methods below are immediate and complete
+- We cannot remotely delete photos or files that are stored only on your device
+- Deleting locally stored app data is within your control
+- In-app deletion is immediate for app-managed photos and app-managed generated files
+- Files saved to public folders such as Downloads may need to be deleted manually from your device's file manager
 
-The only exception is photos temporarily processed by Replicate
-(our AI processing partner) when you use the paid studio-quality
-feature — those are automatically deleted within 1 hour of
-processing completing (see Section: Data Retention by Third
-Parties below).
+The main exception is paid studio-quality export. When you use that feature, the selected photo is temporarily processed by Replicate, our AI processing provider, for background removal or background cleanup. For predictions created through the Replicate API, Replicate states that input parameters, output values, output files, and logs are automatically removed after about one hour by default.
 
 ---
 
 ## What Data PhotoID India Stores
 
-The app stores the following data on your device only:
+The app may store the following data on your device:
 
 - **Photos**: ID photos you have captured and processed
-- **Purchase records**: Records of credit packs you have
-  purchased (stored locally to grant access to your credits)
-- **Generated PDFs**: Print-ready PDFs you have saved
-- **App configuration**: Display preferences and settings
+- **Generated files**: Print-ready PDFs or JPEG exports created by the app
+- **Purchase records and credit balance**: Local records used to grant access to credits
+- **App configuration**: Display preferences, app settings, and related local state
+- **Cache files**: Temporary image and processing files used by the app
 
-PhotoID India does NOT store any of this data on remote servers
-controlled by the developer.
+PhotoID India does not permanently store your photos on servers operated by the developer.
 
 ---
 
@@ -58,80 +45,92 @@ controlled by the developer.
 
 ### Method 1: In-App Deletion (Recommended — Fastest)
 
-Delete all photos directly within the app:
+Delete app-managed photos directly within the app:
 
 1. Open PhotoID India
 2. Tap the **Settings** tab at the bottom of the screen
 3. Tap **Clear all photos** under the Privacy section
 4. Confirm the deletion when prompted
 
-This permanently and immediately deletes all photos and
-generated PDFs stored by the app on your device.
+This permanently and immediately deletes photos, app-managed generated files, and image cache files stored by the app on your device.
+
+If you saved PDFs or JPEGs to your device's public Downloads folder, you may also need to delete those files manually from your file manager.
 
 ### Method 2: Uninstall the App
 
-Uninstalling PhotoID India removes all locally stored data
-including photos, purchase records, and generated PDFs.
+Uninstalling PhotoID India removes locally stored app data, including photos, purchase records, credit balance, generated app-managed files, app settings, preferences, and cached data.
 
 To uninstall on Android:
-1. Go to your device's Settings → Apps (or Application Manager)
-2. Find PhotoID India in the list
-3. Tap Uninstall
+
+1. Go to your device's **Settings → Apps** or **Application Manager**
+2. Find **PhotoID India**
+3. Tap **Uninstall**
 4. Confirm when prompted
 
-Alternatively, long-press the PhotoID India icon on your home
-screen and select Uninstall.
+Alternatively, long-press the PhotoID India icon on your home screen and select **Uninstall**.
 
-### Method 3: Contact Us by Email
+### Method 3: Clear App Data
 
-If you need guidance with data deletion or have questions about
-what data the app stores, contact us at:
+You can also clear the app's local data from Android system settings.
+
+This removes locally stored app data, including photos, purchase records, credit balance, generated app-managed files, settings, preferences, and cached data.
+
+Because credits are stored locally, clearing app data may remove your remaining credits unless restoration is available in the app.
+
+### Method 4: Contact Us by Email
+
+If you need guidance with data deletion or have questions about what data the app stores, contact us at:
 
 **Email**: photoid.india.support@gmail.com
 
-**What to expect when you email us:**
+Because most user data is stored locally on your device and not on servers we operate, we generally cannot delete local app data remotely on your behalf. When you contact us, we will:
 
-Because your data is stored entirely on your device and not on
-any servers we control, we cannot delete anything remotely on
-your behalf. When you contact us, we will:
+1. Explain where the relevant data is stored
+2. Walk you through in-app deletion or Android deletion steps
+3. Answer specific questions about photos, exports, credits, purchases, or third-party processing
+4. Help you understand what data is controlled by Google Play, Firebase, or Replicate
 
-1. Confirm that all your data is stored only on your device
-2. Walk you through Method 1 (in-app deletion) step by step
-3. Answer any specific questions about what data the app stores
-   and how to remove it
-
-We respond within 7 business days. For immediate deletion,
-Method 1 (in-app) is faster and equally complete.
+We respond within 7 business days. For immediate deletion of app-managed photos, Method 1 is faster.
 
 ---
 
 ## What Data Is Deleted
 
-### When you use Method 1 (Clear all photos):
+### When you use Method 1 (Clear all photos)
 
 **Deleted immediately from your device:**
-- All ID photos captured and processed by the app
-- All generated PDFs saved by the app
+
+- Photos captured and processed by the app
+- App-managed generated files
 - Image cache files
+- Temporary processing artifacts controlled by the app
 
 **Not deleted by this method:**
-- Purchase records (your credit balance) — these remain so you
-  can continue using credits you have already paid for
+
+- Purchase records and credit balance, so you can continue using credits you already paid for
 - App settings and preferences
+- Files you saved to public folders such as Downloads, if those files are outside app-managed storage
 
-To delete purchase records, use Method 2 (Uninstall).
+To delete purchase records, credit balance, settings, and preferences, use Method 2 or Method 3.
 
-### When you use Method 2 (Uninstall):
+### When you use Method 2 (Uninstall) or Method 3 (Clear App Data)
 
-**Deleted immediately from your device:**
-- All ID photos captured and processed by the app
-- All generated PDFs saved by the app
-- All purchase records and credit balance
-- All app settings and preferences
-- All cached data
+**Deleted from your device:**
 
-**Retained after uninstall (outside our control):**
-- **Google Play purchase records**: Records of your in-app purchases are retained by Google Play Services per Google's own policies. This is outside our control. Note: because credits are stored only on your device, reinstalling the app does not restore your previous credit balance — your credit balance is removed when you uninstall or clear data. To request deletion of Google Play purchase records, contact Google Play Support directly at: https://support.google.com/googleplay
+- Photos captured and processed by the app
+- App-managed generated files
+- Purchase records and local credit balance
+- App settings and preferences
+- Cached data
+- Temporary processing artifacts controlled by the app
+
+**May remain outside the app:**
+
+- PDFs or JPEGs you saved to public folders such as Downloads
+- Files you shared or copied to other apps
+- Google Play purchase history retained by Google
+- Firebase analytics/crash data retained by Google according to its policies
+- Replicate API prediction data until automatic provider cleanup completes
 
 ---
 
@@ -139,87 +138,92 @@ To delete purchase records, use Method 2 (Uninstall).
 
 ### Replicate (AI Processing Service)
 
-When you use the paid studio-quality feature, your photo is
-temporarily transmitted to Replicate (replicate.com) for AI
-processing. The following applies to that data:
+When you use the paid studio-quality feature, the selected photo is temporarily transmitted to Replicate (replicate.com) for AI background-removal processing.
 
-- Your photo is sent over HTTPS (encrypted in transit)
-- Replicate processes the photo and returns the result to your
-  device
-- Photos are automatically deleted from Replicate's servers
-  within 1 hour of the prediction completing, per Replicate's
-  data retention policy
-- Replicate does not use your photos to train AI models
-- No action is required from you — deletion is automatic
+The following applies:
+
+- Your photo is sent over HTTPS encryption in transit
+- Replicate processes the photo and returns the result
+- For predictions created through the Replicate API, Replicate states that input parameters, output values, output files, and logs are automatically removed after about one hour by default
+- We do not store your photos on servers we operate
+- We do not use your photos to train AI models
+- Replicate processes photos according to Replicate's own terms and privacy policy
+
+No action is required from you for Replicate's automatic API prediction cleanup.
 
 For questions about Replicate's data practices:
 https://replicate.com/privacy
 
-### Firebase (Crash Reporting and Analytics)
+### Firebase (Crash Reporting, Analytics, App Configuration, and App Integrity)
 
-PhotoID India uses Firebase Crashlytics and Firebase Analytics
-(by Google) to collect anonymous crash reports and usage data.
-This data:
+PhotoID India uses Firebase services operated by Google, including Firebase Crashlytics, Firebase Analytics, Firebase Remote Config, Firebase App Check, and Firebase Installations.
 
-- Contains no photos, no faces, and no personal information
-- Cannot be used to identify you individually
-- Is retained by Google per Firebase's data retention policies
-  (typically 90 days for crash data)
+Firebase data processed for PhotoID India:
+
+- Does not include photos or faces
+- Does not include names, phone numbers, contact details, or payment card details
+- May include app-instance identifiers, device information, crash diagnostics, usage events, and app integrity signals
+- Is retained by Google/Firebase according to Google's and Firebase's applicable policies
 - Is outside the scope of in-app photo deletion
 
-For Google Firebase data practices:
+For Google/Firebase data practices:
 https://policies.google.com/privacy
 
 ### Google Play Services
 
-Google Play handles all in-app purchase transactions. Payment
-and purchase data is governed by Google Play's privacy policy:
+Google Play handles all in-app purchase transactions. Payment and purchase data is governed by Google Play's privacy policy:
 https://policies.google.com/privacy
+
+Google Play purchase records are outside our direct control. To request deletion of Google Play purchase records, contact Google Play Support:
+https://support.google.com/googleplay
 
 ---
 
 ## Account Deletion
 
-PhotoID India does not require users to create accounts. The app
-operates without any login, registration, or user accounts.
+PhotoID India does not require users to create a sign-in account. The app operates without user registration or a user-facing account system.
 
-There is no user account to delete. Your identity is not stored
-anywhere by this app.
+There is no PhotoID India account to delete.
+
+The app may use Firebase Anonymous Auth or app integrity services internally for paid processing, abuse prevention, or backend protection. These technical identifiers are not a user-facing account and do not store your photos.
 
 ---
 
 ## Credits and Purchases After Deletion
 
-If you delete your data or uninstall the app:
+If you clear app data or uninstall the app:
 
-- **Your credit balance is removed** from your device
-- **Your Google Play purchase records are retained** by Google (per Google's policies, outside our control)
+- Your local credit balance may be removed from your device
+- Local purchase records may be removed from your device
+- Google Play purchase records are retained by Google according to Google's policies
 
-Credits purchased in PhotoID India never expire while the app is installed. However, because your credit balance is stored only on your device, **uninstalling the app or clearing app data removes your remaining credits, and they cannot currently be recovered on a new device or after reinstalling.** Cross-device credit restoration is not available in the current version of the app.
+Credits purchased in PhotoID India do not expire while stored on this device. However, because the credit balance is stored locally, uninstalling the app, clearing app data, or changing devices may remove remaining credits unless restoration is available in the app. Cross-device credit restoration may not be available in the current version of the app.
 
 ---
 
 ## Summary
 
 | Data type | Where stored | How to delete |
-|-----------|-------------|---------------|
+|-----------|--------------|---------------|
 | Photos | Your device | Settings → Clear all photos |
-| Generated PDFs | Your device | Settings → Clear all photos |
-| Purchase records | Your device | Uninstall app |
-| App settings | Your device | Uninstall app |
-| Replicate processed photos | Replicate servers | Automatic within 1 hour |
-| Google Play purchase history | Google servers | Contact Google Play Support |
-| Firebase crash/analytics | Google servers | Contact Google (anonymous, no PII) |
+| App-managed generated PDFs/JPEGs | Your device | Settings → Clear all photos |
+| PDFs/JPEGs saved to Downloads | Public device storage | Delete manually from file manager |
+| Purchase records | Your device / Google Play | Clear app data or uninstall app; Google Play records managed by Google |
+| Credit balance | Your device | Clear app data or uninstall app |
+| App settings | Your device | Clear app data or uninstall app |
+| Temporary app cache | Your device | Settings → Clear all photos, clear app data, or uninstall app |
+| Replicate API prediction data | Replicate systems | Automatic provider cleanup after about one hour by default |
+| Google Play purchase history | Google systems | Contact Google Play Support |
+| Firebase crash/analytics/config/app integrity data | Google/Firebase systems | Governed by Google/Firebase policies |
 
 ---
 
 ## Questions or Concerns
 
-If you have any questions about data deletion or our data
-practices, please contact us at:
+If you have any questions about data deletion or our data practices, please contact us at:
 
-**Email**: photoid.india.support@gmail.com
-**Developer**: Logictray Mobile Lab
+**Email**: photoid.india.support@gmail.com  
+**Developer**: Logictray Mobile Lab  
 **App**: PhotoID India
 
 For our full privacy practices, please see our Privacy Policy:
