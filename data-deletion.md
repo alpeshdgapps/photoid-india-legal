@@ -23,7 +23,7 @@ This means:
 - In-app deletion is immediate for app-managed photos and app-managed generated files
 - Files saved to public folders such as Downloads may need to be deleted manually from your device's file manager
 
-The main exception is paid studio-quality export. When you use that feature, the selected photo is temporarily processed by Replicate, our AI processing provider, for background removal or background cleanup. For predictions created through the Replicate API, Replicate states that input parameters, output values, output files, and logs are automatically removed after about one hour by default.
+The main exception is paid studio-quality export. When you use that feature, the selected photo is temporarily processed by a third-party AI processing provider for background removal or background cleanup. That provider automatically removes the input and output data after about one hour by default. Details of the provider are in our Privacy Policy (Third-Party Services).
 
 ---
 
@@ -88,7 +88,7 @@ Because most user data is stored locally on your device and not on servers we op
 1. Explain where the relevant data is stored
 2. Walk you through in-app deletion or Android deletion steps
 3. Answer specific questions about photos, exports, credits, purchases, or third-party processing
-4. Help you understand what data is controlled by Google Play, Firebase, or Replicate
+4. Help you understand what data is controlled by Google Play, Firebase, or our third-party AI processing provider
 
 We respond within 7 business days. For immediate deletion of app-managed photos, Method 1 is faster.
 
@@ -130,29 +130,29 @@ To delete purchase records, credit balance, settings, and preferences, use Metho
 - Files you shared or copied to other apps
 - Google Play purchase history retained by Google
 - Firebase analytics/crash data retained by Google according to its policies
-- Replicate API prediction data until automatic provider cleanup completes
+- AI processing provider prediction data until automatic provider cleanup completes
 
 ---
 
 ## Data Retention by Third Parties
 
-### Replicate (AI Processing Service)
+### AI Processing Provider (Paid Studio-Quality Export)
 
-When you use the paid studio-quality feature, the selected photo is temporarily transmitted to Replicate (replicate.com) for AI background-removal processing.
+When you use the paid studio-quality feature, the selected photo is temporarily transmitted to our third-party AI processing provider for AI background-removal processing.
 
 The following applies:
 
 - Your photo is sent over HTTPS encryption in transit
-- Replicate processes the photo and returns the result
-- For predictions created through the Replicate API, Replicate states that input parameters, output values, output files, and logs are automatically removed after about one hour by default
+- The provider processes the photo and returns the result
+- The provider automatically removes the input and output data after about one hour by default
 - We do not store your photos on servers we operate
 - We do not use your photos to train AI models
-- Replicate processes photos according to Replicate's own terms and privacy policy
+- The provider processes photos according to its own terms and privacy policy
 
-No action is required from you for Replicate's automatic API prediction cleanup.
+No action is required from you for the provider's automatic prediction cleanup.
 
-For questions about Replicate's data practices:
-https://replicate.com/privacy
+The current provider and a link to its privacy policy are listed in our Privacy Policy (Third-Party Services):
+https://alpeshdgapps.github.io/photoid-india-legal/
 
 ### Firebase (Crash Reporting, Analytics, App Configuration, and App Integrity)
 
@@ -212,7 +212,7 @@ Credits purchased in PhotoID India do not expire while stored on this device. Ho
 | Credit balance | Your device | Clear app data or uninstall app |
 | App settings | Your device | Clear app data or uninstall app |
 | Temporary app cache | Your device | Settings → Clear all photos, clear app data, or uninstall app |
-| Replicate API prediction data | Replicate systems | Automatic provider cleanup after about one hour by default |
+| AI processing provider prediction data | Provider systems | Automatic provider cleanup after about one hour by default |
 | Google Play purchase history | Google systems | Contact Google Play Support |
 | Firebase crash/analytics/config/app integrity data | Google/Firebase systems | Governed by Google/Firebase policies |
 
