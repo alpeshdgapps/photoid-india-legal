@@ -1,6 +1,6 @@
 # Privacy Policy for PhotoID India
 
-**Last updated: Jun 24, 2026**
+**Last updated: Jun 25, 2026**
 
 PhotoID India ("we", "our", or "the app") is developed and operated by Logictray Mobile Lab ("we" or "the developer"). This Privacy Policy explains how we handle information when you use the PhotoID India mobile application.
 
@@ -19,11 +19,11 @@ When you use PhotoID India, you take or select photos for processing into docume
 - Are processed on your device for the free preview using on-device face detection and preview processing
 - Are stored locally on your device unless you choose to delete them
 - Are not stored on servers we operate
-- Are securely sent to Replicate, our AI processing provider, only when you explicitly request a paid studio-quality export
+- Are securely sent to a third-party AI processing provider (see Section 2) only when you explicitly request a paid studio-quality export
 - Are used only to generate your requested ID photo output
 - Can be deleted at any time through **Settings → Clear all photos**
 
-For paid studio-quality export, the selected photo is temporarily processed by Replicate to remove or clean up the background. For predictions created through the Replicate API, Replicate states that input parameters, output values, output files, and logs are automatically removed after about one hour by default.
+For paid studio-quality export, the selected photo is temporarily processed by a third-party AI processing provider to remove or clean up the background. Details of that provider, including its data retention, are described in Section 2.
 
 ### 1.2 In-App Purchase Information
 
@@ -70,19 +70,19 @@ These services may process technical identifiers or device/app integrity signals
 
 ## 2. Third-Party Services
 
-### 2.1 Replicate (Paid Studio-Quality Export)
+### 2.1 AI Processing Provider (Paid Studio-Quality Export)
 
-When you use credits and request a studio-quality version of your photo, the selected photo is sent through our processing flow to Replicate (replicate.com), a cloud AI processing service operated by Replicate Inc.
+When you use credits and request a studio-quality version of your photo, the selected photo is sent through our processing flow to our third-party AI processing provider. Our current provider is Replicate (replicate.com), a cloud AI processing service operated by Replicate Inc. We may change this provider in the future; if we do, we will update this section.
 
-Replicate is used only to provide the requested background-removal or background-cleanup result.
+The provider is used only to produce the requested background-removal or background-cleanup result.
 
 - Your photo is transmitted over HTTPS using encrypted connections
-- Replicate processes the photo and returns the result
+- The provider processes the photo and returns the result
 - We do not store your photos on servers we operate
 - We do not use your photos to train machine learning models
-- For predictions created through the Replicate API, Replicate states that input parameters, output values, output files, and logs are automatically removed after about one hour by default
+- For API-based processing with our current provider, input parameters, output values, output files, and logs are automatically removed after about one hour by default
 
-Replicate processes data according to its own terms and privacy policy:
+The provider processes data according to its own terms and privacy policy. For the current provider's privacy policy, see:
 https://replicate.com/privacy
 
 ### 2.2 Firebase (Crashlytics, Analytics, Remote Config, App Check)
@@ -158,7 +158,7 @@ We do not:
 
 **Purchase records and credits on your device**: Retained locally until you clear app data or uninstall the app. Credits do not expire while stored on this device. Because credits are stored locally, uninstalling the app, clearing app data, or changing devices may remove remaining credits unless restoration is available in the app.
 
-**Photos sent to Replicate**: For predictions created through the Replicate API, Replicate states that input parameters, output values, output files, and logs are automatically removed after about one hour by default.
+**Photos sent for paid processing**: When you request a paid studio-quality export, the photo is sent to our third-party AI processing provider and is subject to that provider's data retention. See Section 2 for the current provider and its stated retention.
 
 **Crash reports and diagnostics**: Retained by Google/Firebase according to Firebase's applicable retention policies.
 
