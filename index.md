@@ -170,9 +170,11 @@ We do not:
 
 ## 6. Children's Privacy
 
-PhotoID India is not directed to children under the age of 13, and we do not knowingly collect information from children under 13. If you believe a child under 13 has used the app, contact us and we will help remove any associated local data.
+PhotoID India is not directed to children under the age of 13, and we do not knowingly collect personal information from children under 13. If you believe a child under 13 has used the app and you need help removing associated local data, please contact us and we will guide you through deleting it from the device.
 
-The paid studio-quality export feature relies on a third-party processing provider (Replicate) whose terms require users to be 18 or older. If you are under 18, you may use the free on-device features only under the supervision of a parent or guardian, and you should not use the paid studio-quality export unless a parent or guardian consents and takes responsibility for that use in accordance with the provider's terms.
+The paid studio-quality export feature relies on a third-party AI processing provider, as described in Section 2. That provider's terms require users to be 18 or older, or to use the service only with the consent and under the responsibility of a parent or guardian.
+
+If you are under 18, you should use PhotoID India only with the involvement of a parent or guardian. You should not use the paid studio-quality export feature unless your parent or guardian consents to that use and accepts responsibility under the applicable third-party terms.
 
 ---
 
