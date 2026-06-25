@@ -1,6 +1,6 @@
 # Data Deletion Request — PhotoID India
 
-**Last updated: Jun 25, 2026**
+**Last updated: Jun 26, 2026**
 
 This page explains how users of PhotoID India can delete their data, what gets deleted, what is retained, and what happens when you contact us with a deletion request.
 
