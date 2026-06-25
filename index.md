@@ -1,6 +1,6 @@
 # Privacy Policy for PhotoID India
 
-**Last updated: Jun 25, 2026**
+**Last updated: Jun 26, 2026**
 
 PhotoID India ("we", "our", or "the app") is developed and operated by Logictray Mobile Lab ("we" or "the developer"). This Privacy Policy explains how we handle information when you use the PhotoID India mobile application.
 
@@ -19,11 +19,11 @@ When you use PhotoID India, you take or select photos for processing into docume
 - Are processed on your device for the free preview using on-device face detection and preview processing
 - Are stored locally on your device unless you choose to delete them
 - Are not stored on servers we operate
-- Are securely sent to a third-party AI processing provider (see Section 2) only when you explicitly request a paid studio-quality export
+- Are securely sent to a third-party AI processing provider (see Section 2) only when you explicitly request a paid studio-quality export, and only so that provider can generate your requested result on our behalf
 - Are used only to generate your requested ID photo output
 - Can be deleted at any time through **Settings → Clear all photos**
 
-For paid studio-quality export, the selected photo is temporarily processed by a third-party AI processing provider to remove or clean up the background. Details of that provider, including its data retention, are described in Section 2.
+For paid studio-quality export, the selected photo is temporarily processed by a third-party AI processing provider to remove or clean up the background. The provider processes the selected photo only to generate your requested result and return it to the app. We do not authorize the provider to use your photo for advertising, resale, or any independent purpose unrelated to providing the processing service. We do not sell your photos or share them with third parties for their own use. Details of the provider, including its data retention, are described in Section 2.
 
 ### 1.2 In-App Purchase Information
 
@@ -58,13 +58,13 @@ PhotoID India integrates Firebase services operated by Google to improve app rel
 - Whether purchases are completed or abandoned
 - Session duration and frequency
 
-Firebase Analytics and Crashlytics do not receive photos, faces, names, phone numbers, contact details, or payment card details from PhotoID India. These services may collect app-instance identifiers, device information, crash diagnostics, and usage events to help us improve reliability and user flow.
+Firebase Analytics and Crashlytics do not receive photos, faces, names, phone numbers, contact details, or payment card details from PhotoID India. These services may collect app-instance identifiers, device information, approximate location metadata such as country, region, or city, crash diagnostics, and usage events to help us improve reliability and user flow.
 
 ### 1.4 App Configuration and Security Signals
 
 PhotoID India may use Firebase Remote Config, Firebase App Check, Firebase Installations, and related Firebase/Google services to deliver app configuration, protect backend access, reduce abuse, and improve reliability.
 
-These services may process technical identifiers or device/app integrity signals. They do not receive your photos.
+These services may process technical identifiers, approximate location metadata, device/app information, or device/app integrity signals. They do not receive your photos.
 
 ---
 
@@ -74,13 +74,13 @@ These services may process technical identifiers or device/app integrity signals
 
 When you use credits and request a studio-quality version of your photo, the selected photo is sent through our processing flow to our third-party AI processing provider. Our current provider is Replicate (replicate.com), a cloud AI processing service operated by Replicate Inc. We may change this provider in the future; if we do, we will update this section.
 
-The provider is used only to produce the requested background-removal or background-cleanup result.
+The provider is used only to produce the requested background-removal or background-cleanup result. The provider processes the selected photo on our behalf as a service provider and returns the processed result to the app. We do not authorize the provider to use your photo for advertising, resale, or any independent purpose unrelated to providing the processing service. We do not sell your photos or share them with third parties for their own use.
 
 - Your photo is transmitted over HTTPS using encrypted connections
 - The provider processes the photo and returns the result
 - We do not store your photos on servers we operate
 - We do not use your photos to train machine learning models
-- For API-based processing with our current provider, input parameters, output values, output files, and logs are automatically removed after about one hour by default
+- For API-based processing with our current provider, the provider states that input parameters, output values, output files, and logs are automatically removed after about one hour by default
 
 The provider processes data according to its own terms and privacy policy. For the current provider's privacy policy, see:
 https://replicate.com/privacy
@@ -119,7 +119,7 @@ PhotoID India requests these device permissions:
 We do not request access to:
 
 - Your contacts
-- Your location
+- Your device location through Android location permissions (we do not use GPS or precise location). Approximate location may be derived from your IP address by analytics services, as described in Section 1.3
 - Your microphone
 - Your call logs or SMS
 - Other apps' private data
@@ -146,7 +146,7 @@ We do not:
 - Use your photos to train machine learning models
 - Use your photos for advertising
 - Include photos, faces, names, phone numbers, contact details, or payment details in analytics events
-- Use your information for advertising or marketing without your consent
+- Use your information for advertising or marketing
 
 ---
 
