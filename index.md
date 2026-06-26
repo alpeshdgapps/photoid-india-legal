@@ -14,7 +14,7 @@ PhotoID India is designed with privacy as a core principle. We collect minimal i
 
 ### 1.1 Photos and Images
 
-When you use PhotoID India, you take or select photos for processing into document-size ID photos. These photos:
+When you use PhotoID India, you capture photos for processing into document-size ID photos. These photos:
 
 - Are processed on your device for the free preview using on-device face detection and preview processing
 - Are stored locally on your device unless you choose to delete them
@@ -23,7 +23,7 @@ When you use PhotoID India, you take or select photos for processing into docume
 - Are used only to generate your requested ID photo output
 - Can be deleted at any time through **Settings → Clear all photos**
 
-For paid studio-quality export, the selected photo is temporarily processed by a third-party AI processing provider to remove or clean up the background. The provider processes the selected photo only to generate your requested result and return it to the app. We do not authorize the provider to use your photo for advertising, resale, or any independent purpose unrelated to providing the processing service. We do not sell your photos or share them with third parties for their own use. Details of the provider, including its data retention, are described in Section 2.
+For paid studio-quality export, the photo you capture is temporarily processed by a third-party AI processing provider to remove or clean up the background. The provider processes the photo you capture only to generate your requested result and return it to the app. We do not authorize the provider to use your photo for advertising, resale, or any independent purpose unrelated to providing the processing service. We do not sell your photos or share them with third parties for their own use. Details of the provider, including its data retention, are described in Section 2.
 
 ### 1.2 In-App Purchase Information
 
@@ -72,9 +72,9 @@ These services may process technical identifiers, approximate location metadata,
 
 ### 2.1 AI Processing Provider (Paid Studio-Quality Export)
 
-When you use credits and request a studio-quality version of your photo, the selected photo is sent through our processing flow to our third-party AI processing provider. Our current provider is Replicate (replicate.com), a cloud AI processing service operated by Replicate Inc. We may change this provider in the future; if we do, we will update this section.
+When you use credits and request a studio-quality version of your photo, the photo you capture is sent through our processing flow to our third-party AI processing provider. Our current provider is Replicate (replicate.com), a cloud AI processing service operated by Replicate Inc. We may change this provider in the future; if we do, we will update this section.
 
-The provider is used only to produce the requested background-removal or background-cleanup result. The provider processes the selected photo on our behalf as a service provider and returns the processed result to the app. We do not authorize the provider to use your photo for advertising, resale, or any independent purpose unrelated to providing the processing service. We do not sell your photos or share them with third parties for their own use.
+The provider is used only to produce the requested background-removal or background-cleanup result. The provider processes the photo you capture on our behalf as a service provider and returns the processed result to the app. We do not authorize the provider to use your photo for advertising, resale, or any independent purpose unrelated to providing the processing service. We do not sell your photos or share them with third parties for their own use.
 
 - Your photo is transmitted over HTTPS using encrypted connections
 - The provider processes the photo and returns the result
