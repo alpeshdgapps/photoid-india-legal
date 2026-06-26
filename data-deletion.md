@@ -23,7 +23,7 @@ This means:
 - In-app deletion is immediate for app-managed photos and app-managed generated files
 - Files saved to public folders such as Downloads may need to be deleted manually from your device's file manager
 
-The main exception is paid studio-quality export. When you use that feature, the selected photo is temporarily processed by a third-party AI processing provider for background removal or background cleanup. That provider automatically removes the input and output data after about one hour by default. Details of the provider are in our Privacy Policy (Third-Party Services).
+The main exception is paid studio-quality export. When you use that feature, the selected photo is temporarily processed by a third-party AI processing provider for background removal or background cleanup. Our current provider states that input and output data is automatically removed after about one hour by default. Details of the provider are in our Privacy Policy (Third-Party Services).
 
 ---
 
@@ -144,10 +144,11 @@ The following applies:
 
 - Your photo is sent over HTTPS encryption in transit
 - The provider processes the photo and returns the result
-- The provider automatically removes the input and output data after about one hour by default
+- For API-based processing with our current provider, the provider states that input parameters, output values, output files, and logs are automatically removed after about one hour by default
 - We do not store your photos on servers we operate
 - We do not use your photos to train AI models
-- The provider processes photos according to its own terms and privacy policy
+- The provider processes the selected photo only to generate the requested result and return it to the app
+- We do not authorize the provider to use your photo for advertising, resale, or any independent purpose unrelated to providing the processing service
 
 No action is required from you for the provider's automatic prediction cleanup.
 
@@ -162,7 +163,7 @@ Firebase data processed for PhotoID India:
 
 - Does not include photos or faces
 - Does not include names, phone numbers, contact details, or payment card details
-- May include app-instance identifiers, device information, crash diagnostics, usage events, and app integrity signals
+- May include app-instance identifiers, device information, approximate location metadata such as country, region, or city, crash diagnostics, usage events, and app integrity signals
 - Is retained by Google/Firebase according to Google's and Firebase's applicable policies
 - Is outside the scope of in-app photo deletion
 
@@ -212,7 +213,7 @@ Credits purchased in PhotoID India do not expire while stored on this device. Ho
 | Credit balance | Your device | Clear app data or uninstall app |
 | App settings | Your device | Clear app data or uninstall app |
 | Temporary app cache | Your device | Settings → Clear all photos, clear app data, or uninstall app |
-| AI processing provider prediction data | Provider systems | Automatic provider cleanup after about one hour by default |
+| AI processing provider prediction data | Provider systems | Automatic cleanup by the current provider after about one hour by default |
 | Google Play purchase history | Google systems | Contact Google Play Support |
 | Firebase crash/analytics/config/app integrity data | Google/Firebase systems | Governed by Google/Firebase policies |
 
