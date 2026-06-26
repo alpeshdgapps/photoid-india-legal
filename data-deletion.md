@@ -23,7 +23,7 @@ This means:
 - In-app deletion is immediate for app-managed photos and app-managed generated files
 - Files saved to public folders such as Downloads may need to be deleted manually from your device's file manager
 
-The main exception is paid studio-quality export. When you use that feature, the selected photo is temporarily processed by a third-party AI processing provider for background removal or background cleanup. Our current provider states that input and output data is automatically removed after about one hour by default. Details of the provider are in our Privacy Policy (Third-Party Services).
+The main exception is paid studio-quality export. When you use that feature, the photo you capture is temporarily processed by a third-party AI processing provider for background removal or background cleanup. Our current provider states that input and output data is automatically removed after about one hour by default. Details of the provider are in our Privacy Policy (Third-Party Services).
 
 ---
 
@@ -138,7 +138,7 @@ To delete purchase records, credit balance, settings, and preferences, use Metho
 
 ### AI Processing Provider (Paid Studio-Quality Export)
 
-When you use the paid studio-quality feature, the selected photo is temporarily transmitted to our third-party AI processing provider for AI background-removal processing.
+When you use the paid studio-quality feature, the photo you capture is temporarily transmitted to our third-party AI processing provider for AI background-removal processing.
 
 The following applies:
 
@@ -147,7 +147,7 @@ The following applies:
 - For API-based processing with our current provider, the provider states that input parameters, output values, output files, and logs are automatically removed after about one hour by default
 - We do not store your photos on servers we operate
 - We do not use your photos to train AI models
-- The provider processes the selected photo only to generate the requested result and return it to the app
+- The provider processes the photo you capture only to generate the requested result and return it to the app
 - We do not authorize the provider to use your photo for advertising, resale, or any independent purpose unrelated to providing the processing service
 
 No action is required from you for the provider's automatic prediction cleanup.
